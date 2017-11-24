@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./padre.component.css']
 })
 export class PadreComponent implements OnInit {
-
+  avisos = ['Mañana no hay clases', 'Mañana Hay Kermes', 'Hoy es el Black Friday'];
   constructor() { }
 
   ngOnInit() {

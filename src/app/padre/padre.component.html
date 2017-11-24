@@ -2,6 +2,6 @@
 
 <div class="padre">
 
-  <app-hijo *ngFor="let elaviso of avisos" [aviso]="elaviso"></app-hijo>
-  
+  <app-hijo *ngFor="let elaviso of avisos" [aviso]="elaviso" (msj_hijo)="aceptarMsj($event)"></app-hijo>
+  <h3 class="centrado">{{ mensaje_del_hijo }}</h3>
 </div>

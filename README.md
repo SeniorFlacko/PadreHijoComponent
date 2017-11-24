@@ -13,3 +13,6 @@
 
 
 #### El parametro $event es recogido por el padre a traves de un metodo ligado a dicho evento ( evento_hijo ) = metodoAceptador($event)
+
+
+<img src="https://github.com/SeniorFlacko/PadreHijoComponent/blob/master/comunicacion_padre_hijo.PNG">
